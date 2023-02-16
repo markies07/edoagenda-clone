@@ -41,7 +41,7 @@
       <!-- CONTENT -->
       <div class="w-full h-full">
         <img
-          class="object-cover w-full h-full"
+          class="object-cover w-full h-[95vh]"
           src="https://agenda.edo.io/welcome/static/img/house.jpg"
           alt=""
         />
@@ -65,31 +65,27 @@
           Scroll down or use arrow keys
         </p>
         <img
-          class="w-[2.4rem] mt-3"
+          class="w-[2.4rem] mt-3 animate-bounce"
           src="https://agenda.edo.io/welcome/static/img/arrows.png"
           alt=""
         />
       </div>
-
-      <!-- BUTTONS -->
     </main>
 
     <!-- BUTTONS -->
-    <div class="flex justify-center">
+    <div class="flex justify-center gap-[.9rem] mt-[8.4rem]">
       <img
-        class="w-[200px] h-[300px]"
+        class="w-[11.8rem]"
         src="https://agenda.edo.io/welcome/static/img/get-web-app.png"
         alt=""
-        class="w-48"
       />
       <img
-        class="w-[200px] h-[50px]"
+        class="w-[11.8rem]"
         src="https://agenda.edo.io/welcome/static/img/get-android.png"
         alt=""
-        class="w-48"
       />
       <img
-        class="w-[200px] h-[100px]"
+        class="w-[11.8rem]"
         src="https://agenda.edo.io/welcome/static/img/get-iphone.png"
         alt=""
         class="w-48"
@@ -109,7 +105,6 @@
           src="https://agenda.edo.io/welcome/static/img/mac-with-app.png"
           alt=""
           class="select-none pointer-events-none"
-        />
         />
       </div>
     </div>
@@ -200,71 +195,159 @@
         <h2 class="text-[1.7rem] font-light tracking-wide">from any device</h2>
       </div>
 
-      <!-- 2ND GRID -->
-      <div class="">
-        <div>
-          <img
-            class="object-cover w-full"
-            src="https://agenda.edo.io/welcome/static/img/web-image.jpg"
-            alt=""
-          />
+      <!-- FLEX LAYOUT -->
+      <div class="flex flex-col">
+        <!-- CONTAINER -->
+        <div class="flex h-[37.5rem]">
+          <div class="w-1/2">
+            <img
+              class="object-cover w-full h-full"
+              src="https://agenda.edo.io/welcome/static/img/web-image.jpg"
+              alt=""
+            />
+          </div>
+          <div class="flex-1 flex flex-col justify-center pl-[60px] pr-[40px]">
+            <h1 class="text-[1.55rem] tracking-wide font-semibold">
+              Edo Agenda <span style="color: rgb(233, 0, 0)">Web</span>
+            </h1>
+            <p
+              style="word-spacing: 0.09rem"
+              class="text-justify mt-[1.2rem] text-[1.01rem] text-slate-800"
+            >
+              In the office, at home or in a café bar, open Edo Agenda on your
+              laptop and take your time to plan your day and free your creative
+              soul.
+            </p>
+            <img
+              class="w-[11.8rem] mt-10"
+              src="https://agenda.edo.io/welcome/static/img/get-web-app.png"
+              alt=""
+            />
+          </div>
         </div>
-        <div class="flex flex-col justify-center pl-[60px] pr-[40px]">
-          <h1>Edo Agenda <span style="color: red">Web</span></h1>
-          <p>
-            In the office, at home or in a café bar, open Edo Agenda on your
-            laptop and take your time to plan your day and free your creative
-            soul.
-          </p>
-          <img
-            src="https://agenda.edo.io/welcome/static/img/get-web-app.png"
-            alt=""
-          />
+
+        <!-- HAHAHA -->
+        <div class="flex h-[37.5rem]">
+          <div
+            class="items-end flex-1 flex flex-col justify-center pr-[60px] pl-[40px]"
+          >
+            <h1 class="text-[1.55rem] tracking-wide font-semibold">
+              Edo Agenda <span style="color: rgb(0, 156, 0)">Mobile</span>
+            </h1>
+            <p
+              style="word-spacing: 0.09rem"
+              class="text-justify mt-[1.2rem] text-[1.01rem] text-slate-800"
+            >
+              The best ideas often come on the go. If you're travelling for work
+              or if you're just enjoying your long-awaited trip, use Edo Agenda
+              to write a list of things to do or simply as a journal.
+            </p>
+            <div class="flex gap-5 mt-10">
+              <img
+                class="w-[11.8rem]"
+                src="https://agenda.edo.io/welcome/static/img/get-iphone.png"
+                alt=""
+              />
+              <img
+                class="w-[11.8rem]"
+                src="https://agenda.edo.io/welcome/static/img/get-android.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="w-1/2">
+            <img
+              class="object-cover w-full h-full"
+              src="https://agenda.edo.io/welcome/static/img/mobile-image.jpg"
+              alt=""
+            />
+          </div>
         </div>
-        <div>
-          <h1>Edo Agenda Mobile</h1>
-          <p>
-            The best ideas often come on the go. If you're travelling for work
-            or if you're just enjoying your long-awaited trip, use Edo Agenda to
-            write a list of things to do or simply as a journal.
-          </p>
-          <img
-            src="https://agenda.edo.io/welcome/static/img/get-android.png"
-            alt=""
-          />
-          <img
-            src="https://agenda.edo.io/welcome/static/img/get-iphone.png"
-            alt=""
-          />
-        </div>
-        <div class="h-full w-full">
-          <img
-            src="https://agenda.edo.io/welcome/static/img/mobile-image.jpg"
-            alt=""
-          />
-        </div>
-        <div class="h-full w-full">
-          <img
-            src="https://agenda.edo.io/welcome/static/img/paper-image.jpg"
-            alt=""
-          />
-        </div>
-        <div>
-          <h1>Edo Agenda Paper</h1>
-          <p>
-            Where tradition meets technology. Your traditional everyday
-            note-taking device has a very digital soul. Agenda Paper is a
-            beautifully crafted notebook. By snapping pictures of pages, your
-            ideas transfer to the web. Your tasks, as well as your sketches,
-            designs and thoughts become immediately accessible on the app and
-            safely stored in the cloud. All it takes is a snap.
-          </p>
-          <img
-            src="https://agenda.edo.io/welcome/static/img/get-paper.png"
-            alt=""
-          />
+
+        <!-- HAHAHAA -->
+        <div class="flex h-[37.5rem]">
+          <div class="w-1/2">
+            <img
+              class="object-cover w-full h-full"
+              src="https://agenda.edo.io/welcome/static/img/paper-image.jpg"
+              alt=""
+            />
+          </div>
+          <div class="flex-1 flex flex-col justify-center pl-[60px] pr-[40px]">
+            <h1 class="text-[1.55rem] tracking-wide font-semibold">
+              Edo Agenda <span style="color: rgb(132, 123, 255)">Paper</span>
+            </h1>
+            <p
+              style="word-spacing: 0.09rem"
+              class="text-justify mt-[1.2rem] text-[1.03rem] text-slate-800"
+            >
+              Where tradition meets technology. Your traditional everyday
+              note-taking device has a very digital soul. Agenda Paper is a
+              beautifully crafted notebook. By snapping pictures of pages, your
+              ideas transfer to the web. Your tasks, as well as your sketches,
+              designs and thoughts become immediately accessible on the app and
+              safely stored in the cloud. All it takes is a snap.
+            </p>
+            <img
+              class="w-[11.8rem] mt-10"
+              src="https://agenda.edo.io/welcome/static/img/get-paper.png"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </main>
+
+    <!-- LAST PAGE -->
+    <div class="w-[40%] mx-auto mt-[9.3rem]">
+      <h1 class="text-center text-[1.72rem] tracking-wide mb-9">
+        Seamless experience
+      </h1>
+      <p class="text-center font-light text-[1.09rem] mb-4">
+        Everything you create on Edo Agenda on your laptop is immediately saved
+        in cloud and accessible from your mobile devices and vice-versa.
+      </p>
+      <p class="text-center font-light text-[1.09rem]">
+        Everything you sketch, write or create on “Edo Agenda Paper” is quickly
+        sent to the Edo Agenda app with a simple snap.
+      </p>
+    </div>
+    <div>
+      <div class="flex justify-center gap-4 mt-32">
+        <img
+          class="w-[11.8rem]"
+          src="https://agenda.edo.io/welcome/static/img/get-web-app.png"
+          alt=""
+        />
+        <img
+          class="w-[11.8rem]"
+          src="https://agenda.edo.io/welcome/static/img/get-android.png"
+          alt=""
+        />
+        <img
+          class="w-[11.8rem]"
+          src="https://agenda.edo.io/welcome/static/img/get-iphone.png"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="flex justify-center mt-36">
+      <img
+        class="w-10"
+        src="https://agenda.edo.io/welcome/static/img/logo_only_image.png"
+        alt=""
+      />
+    </div>
+    <div class="flex gap-10 justify-center mt-28">
+      <p class="text-[#7E95F7] text-sm">Facebook</p>
+      <p class="text-[#7E95F7] text-sm">Instagram</p>
+      <p class="text-[#7E95F7] text-sm">Contact us</p>
+      <p class="text-[#7E95F7] text-sm">Privacy</p>
+    </div>
+    <footer class="text-center py-4 text-[.76rem] mt-20">
+      © 2017 edo.io srl
+    </footer>
   </body>
 </html>
