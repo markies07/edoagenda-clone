@@ -11,11 +11,9 @@
       rel="stylesheet"
     />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="/dist/output.css" />
-    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
   </head>
-  <body class="font-display font-[300]">
+  <body style="font-family: 'Open Sans', sans-serif">
     <!-- HEADER -->
     <header
       class="z-10 fixed top-0 left-0 right-0 flex justify-between py-[28px] px-[35px]"
@@ -29,7 +27,7 @@
         />
       </div>
       <!-- right side -->
-      <div class="pr-0">
+      <div class="">
         <button
           class="bg-[#dc665d] px-[30px] py-3 font-normal text-[#dfdfdf] border-2 text-[14px] border-[#bc5149] tracking-wide"
         >
@@ -39,7 +37,7 @@
     </header>
 
     <!-- FRONT PAGE -->
-    <main class="h-[95vh] w-full relative">
+    <main class="h-[100vh] w-full relative">
       <!-- CONTENT -->
       <div class="w-full h-full">
         <img
@@ -49,141 +47,162 @@
         />
       </div>
       <!-- SLOGAN -->
-      <div class="absolute top-[305px] text-[#ececec] w-full text-center">
-        <h1 style="word-spacing: 7px" class="text-[42px] font-[400]">
+      <div class="absolute top-[12rem] text-[#ececec] w-full text-center">
+        <h1 style="word-spacing: 7px" class="text-[2.7rem] font-[400]">
           Design your day
         </h1>
-        <h5 class="mt-4 text-[17px] font-light leading-[22px]">
+        <h5 class="mt-4 text-[1.1rem] font-light leading-[22px]">
           Edo Agenda is your personal workspace that helps you organize your
           <br />
           day and free your creative side.
         </h5>
       </div>
       <!-- SCROLL DOWN -->
-
       <div
-        class="absolute flex flex-col items-center justify-center w-full text-white bottom-2"
+        class="absolute flex flex-col items-center justify-center w-full text-white bottom-6"
       >
         <p class="text-[10px] tracking-wide mb-2">
           Scroll down or use arrow keys
         </p>
         <img
-          class="w-[50px]"
+          class="w-[2.4rem] mt-3"
           src="https://agenda.edo.io/welcome/static/img/arrows.png"
           alt=""
         />
       </div>
-    </main>
 
-    <!-- BUTTONS -->
-    <div class="flex justify-center">
+      <!-- BUTTONS -->
+    </main>
+    <div class="flex justify-center gap-[.8rem] mt-[8rem]">
       <img
-        class="w-[200px] h-[300px]"
+        class="w-48"
         src="https://agenda.edo.io/welcome/static/img/get-web-app.png"
         alt=""
       />
       <img
-        class="w-[200px] h-[50px]"
+        class="w-48"
         src="https://agenda.edo.io/welcome/static/img/get-android.png"
         alt=""
       />
       <img
-        class="w-[200px] h-[100px]"
+        class="w-48"
         src="https://agenda.edo.io/welcome/static/img/get-iphone.png"
         alt=""
       />
     </div>
 
     <!-- LAPTOP PAGE -->
-    <div class="flex flex-col items-center p-12">
-      <div class="text-xl">
+    <div class="flex flex-col items-center px-9 mt-[6.5rem] text-center">
+      <div class="text-[1.8rem] font-normal px-1 mb-[4.5rem] leading-10">
         The smart agenda for freelancers, creatives and people who do great
-        work. Organize your day and free your creative side.
+        work. <br />
+        Organize your day and free your creative side.
       </div>
-      <div>
+      <div class="">
         <img
+          class="w-[56.5rem]"
           src="https://agenda.edo.io/welcome/static/img/mac-with-app.png"
           alt=""
         />
       </div>
     </div>
-
     <!-- ARROW PAGE -->
-    <main>
-      <div>
+    <main class="flex flex-col items-center mt-[12rem]">
+      <div class="items-center flex flex-col mb-28">
         <img
+          class="w-10"
           src="https://agenda.edo.io/welcome/static/img/logo_only_image.png"
           alt=""
         />
-        <h2>Productivity, meet Creativity</h2>
+        <h2 class="text-[1.78rem] mt-10">Productivity, meet Creativity</h2>
       </div>
+
       <!-- GRID -->
-      <div>
-        <div>
+      <div class="grid gap-4 grid-cols-2 grid-rows-2 gap-x-11 gap-y-28">
+        <div class="flex flex-col items-center text-center">
           <img
+            class="w-20"
             src="https://agenda.edo.io/welcome/static/img/calendar-icon.png"
             alt=""
           />
-          <h2>THE BIG PICTURE OF YOUR ACTIVITIES</h2>
-          <p>
+          <h2 class="font-semibold tracking-wide mt-14 mb-5">
+            THE BIG PICTURE OF YOUR ACTIVITIES
+          </h2>
+          <p class="font-light text-[1rem] tracking-wide">
             The Planner will help you to get an overview on how productive
+            <br />
             you’ve been and what still needs to be done.
           </p>
         </div>
-        <div>
+        <div class="flex flex-col items-center text-center">
           <img
+            class="w-20"
             src="https://agenda.edo.io/welcome/static/img/journal-icon.png"
             alt=""
           />
-          <h2>EVERYTHING YOU NEED TO PLAN YOUR DAY</h2>
-          <p>
+          <h2 class="font-semibold tracking-wide mt-14 mb-5">
+            EVERYTHING YOU NEED TO PLAN YOUR DAY
+          </h2>
+          <p class="font-light text-[1rem] tracking-wide">
             Start your day by writing the thoughts that inspire you, ideas you
+            <br />
             want to remember, or simply a list of things to do.
           </p>
         </div>
-        <div>
+        <div class="flex flex-col items-center text-center">
           <img
+            class="w-20"
             src="https://agenda.edo.io/welcome/static/img/task-icon.png"
             alt=""
           />
-          <h2>YOUR REMINDERS AND TO-DO LISTS AT A GLANCE</h2>
-          <p>
-            Remember everything you have to do with reminders on your phone and
-            see what still needs to be done at a glance with on-the-go task
-            lists.
+          <h2 class="font-semibold tracking-wide mt-14 mb-5">
+            YOUR REMINDERS AND TO-DO LISTS AT A GLANCE
+          </h2>
+          <p class="font-light text-[1rem] tracking-wide">
+            Remember everything you have to do with reminders on your <br />
+            phone and see what still needs to be done at a glance with on-
+            <br />
+            the-go task lists.
           </p>
         </div>
-        <div>
+        <div class="flex flex-col items-center text-center">
           <img
+            class="w-20"
             src="https://agenda.edo.io/welcome/static/img/notes-icon.png"
             alt=""
           />
-          <h2>A CLEAN ORGANIZED PLACE TO WRITE YOUR THOUGHTS</h2>
-          <p>
-            Don’t forget one single detail for your meetings and appointments.
-            Add reminders for your meetings next week and attach your relevant
-            thoughts and docs.
+          <h2 class="font-semibold tracking-wide mt-14 mb-5">
+            A CLEAN ORGANIZED PLACE TO WRITE YOUR THOUGHTS
+          </h2>
+          <p class="font-light text-[1rem] tracking-wide">
+            Don’t forget one single detail for your meetings and <br />
+            appointments. Add reminders for your meetings next week and <br />
+            attach your relevant thoughts and docs.
           </p>
         </div>
       </div>
     </main>
 
-    <!-- GRID LAYOUT -->
-    <main>
-      <div>
-        <h2>Fill your days with inspiration</h2>
-        <h2>from any device</h2>
+    <!-- BIG GRID LAYOUT -->
+    <main class="mt-[11rem]">
+      <div class="flex flex-col items-center mb-24">
+        <h2 class="text-[2.2rem] font-light tracking-wide">
+          Fill your days with inspiration
+        </h2>
+        <hr class="my-3 w-[60%] h-[1.3px] bg-black content-['']" />
+        <h2 class="text-[1.7rem] font-light tracking-wide">from any device</h2>
       </div>
 
-      <!-- GRID -->
-      <div>
+      <!-- 2ND GRID -->
+      <div class="">
         <div>
           <img
+            class="object-cover w-full"
             src="https://agenda.edo.io/welcome/static/img/web-image.jpg"
             alt=""
           />
         </div>
-        <div>
+        <div class="flex flex-col justify-center pl-[60px] pr-[40px]">
           <h1>Edo Agenda <span style="color: red">Web</span></h1>
           <p>
             In the office, at home or in a café bar, open Edo Agenda on your
@@ -211,13 +230,13 @@
             alt=""
           />
         </div>
-        <div>
+        <div class="h-full w-full">
           <img
             src="https://agenda.edo.io/welcome/static/img/mobile-image.jpg"
             alt=""
           />
         </div>
-        <div>
+        <div class="h-full w-full">
           <img
             src="https://agenda.edo.io/welcome/static/img/paper-image.jpg"
             alt=""
@@ -240,52 +259,5 @@
         </div>
       </div>
     </main>
-
-    <!-- LAST PAGE -->
-    <div>
-      <h1>Seamless experience</h1>
-      <p>
-        Everything you create on Edo Agenda on your laptop is immediately saved
-        in cloud and accessible from your mobile devices and vice-versa.
-      </p>
-      <p>
-        Everything you sketch, write or create on “Edo Agenda Paper” is quickly
-        sent to the Edo Agenda app with a simple snap.
-      </p>
-    </div>
-    <div>
-      <div class="flex justify-center">
-        <img
-          class="w-6"
-          src="https://agenda.edo.io/welcome/static/img/get-web-app.png"
-          alt=""
-        />
-        <img
-          class=""
-          src="https://agenda.edo.io/welcome/static/img/get-android.png"
-          alt=""
-        />
-        <img
-          class=""
-          src="https://agenda.edo.io/welcome/static/img/get-iphone.png"
-          alt=""
-        />
-      </div>
-    </div>
-
-    <!-- FOOTER -->
-    <div>
-      <img
-        src="https://agenda.edo.io/welcome/static/img/logo_only_image.png"
-        alt=""
-      />
-    </div>
-    <div>
-      <p>Facebook</p>
-      <p>Instagram</p>
-      <p>Contact us</p>
-      <p>Privacy</p>
-    </div>
-    <footer>© 2017 edo.io srl</footer>
   </body>
 </html>
